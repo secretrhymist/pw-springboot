@@ -1,0 +1,16 @@
+# \u914D\u7F6E\u7AEF\u53E3
+server:
+  port: 8085
+  servlet:
+    session:
+      timeout: 21600
+
+
+# \u914D\u7F6Emysql\u6570\u636E\u5E93
+spring:
+  datasource:
+#    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/pw_market?serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: root
